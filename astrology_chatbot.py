@@ -132,3 +132,4 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("### 📅 Today's Horoscope")
     st.info("💫 Share your zodiac sign for a personalized daily reading!")
+    
