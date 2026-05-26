@@ -17,7 +17,7 @@ if "messages" not in st.session_state:
 
 if "client" not in st.session_state:
     # Initialize Gemini client
-    API_KEY = "AIzaSyCSElHmYeDKEh0EF-msGmwsIN5eW35UISE"
+    API_KEY = "AIzaSyBEAJ_adW7EAPHOz_fdIskMQDpOZgEyI6c"
     st.session_state.client = genai.Client(api_key=API_KEY)
     st.session_state.model = "gemini-2.5-flash"
 
